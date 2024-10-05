@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.completeFunctionParens": true,
+    "editor.rulers": [
+        {
+            "column": 99,
+            "color": "white"
+        },
+        {
+            "column": 119,
+            "color": "lightgreen"
+        }
+    ],
+}
